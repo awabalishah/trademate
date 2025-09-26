@@ -142,7 +142,7 @@ export default function Pricing() {
         {/* Bottom CTA */}
         <div className="text-center">
           <p className="text-[16px] text-[#677489] mb-6 leading-[24px]">
-            Need a custom solution? We're here to help.
+            Need a custom solution? We&apos;re here to help.
           </p>
           <button className="bg-white text-[#1f77d6] font-semibold px-8 py-3 rounded-lg border-2 border-[#1f77d6] hover:bg-[#1f77d6] hover:text-white transition-all duration-300">
             Contact Our Sales Team

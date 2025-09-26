@@ -19,7 +19,7 @@ export default function Services() {
                 WE ARE SERVING
               </div>
               <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 max-w-3xl xl:max-w-[574px] mx-auto leading-[44px] tracking-[-1px] text-center">
-                No matter what industry you're in, we got you covered
+                No matter what industry you&apos;re in, we got you covered
               </h2>
               <p className="text-[16px] text-[#677489] max-w-4xl mx-auto leading-[24px] text-center">
                 Trademate AI is built to talk to more leads, set more appointments, and follow up for your business with little oversight.

@@ -128,7 +128,7 @@ export default function AutomationPage() {
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <h3 className="text-[20px] font-semibold text-[#0E1109] mb-6 leading-[28px]">Get Your Free Automation Audit</h3>
               <p className="text-[16px] text-[#677489] mb-6 leading-[24px]">
-                We'll analyze your current processes and show you exactly how much time and money 
+                We&apos;ll analyze your current processes and show you exactly how much time and money 
                 you can save with our automation solutions.
               </p>
               <Link href="/#contact" className="btn-primary w-full text-center block">

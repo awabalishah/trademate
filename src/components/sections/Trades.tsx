@@ -31,7 +31,7 @@ export default function Trades() {
 
         <div className="text-center mt-12">
           <p className="text-[16px] text-[#677489] mb-6 leading-[24px]">
-            Don't see your trade? We work with all types of tradespeople!
+            Don&apos;t see your trade? We work with all types of tradespeople!
           </p>
           <button className="btn-primary">
             Get Custom Solution

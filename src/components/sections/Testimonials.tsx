@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Testimonials() {
   const testimonials = [
     {
@@ -40,7 +42,7 @@ export default function Testimonials() {
             Are Saying
           </h2>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
-            Real feedback from trades who've transformed their business with Trademate.
+            Real feedback from trades who&apos;ve transformed their business with Trademate.
           </p>
         </div>
 
@@ -58,25 +60,18 @@ export default function Testimonials() {
               
               {/* Testimonial Text */}
               <blockquote className="text-[16px] text-[#677489] mb-8 leading-[24px]">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </blockquote>
               
               {/* Profile */}
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden">
-                  <img 
+                  <Image 
                     src={testimonial.avatar} 
                     alt={testimonial.name}
+                    width={48}
+                    height={48}
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      // Fallback to initials if image doesn't exist
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent) {
-                        parent.innerHTML = `<div class="w-full h-full bg-[#1f77d6] rounded-full flex items-center justify-center text-white font-bold text-lg">${testimonial.name.charAt(0)}</div>`;
-                      }
-                    }}
                   />
                 </div>
                 <div className="ml-4">

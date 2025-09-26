@@ -18,7 +18,7 @@ export default function FAQ() {
     },
     {
       id: 2,
-      question: "Will customers know they're speaking to AI?",
+      question: "Will customers know they&apos;re speaking to AI?",
       answer: "Our AI responses are designed to sound natural and professional. Customers will have a seamless experience without knowing they're interacting with AI."
     },
     {
@@ -49,7 +49,7 @@ export default function FAQ() {
             Got Questions?
           </h2>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
-            We've got answers to your most common cleaning concerns.
+            We&apos;ve got answers to your most common cleaning concerns.
           </p>
         </div>
 

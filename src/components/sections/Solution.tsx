@@ -33,12 +33,12 @@ export default function Solution() {
             <div className="inline-flex items-center bg-[#eaf3fc] text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
               YOUR PROBLEM
             </div>
-            <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[44px] w-[600px] xl:w-[600px] lg:w-[550px] md:w-[500px] sm:w-[400px] w-full mx-auto">
-              You're bombarded with hundreds of{' '}
-              <span className="text-[#1f77d6]">Emails and Queries</span> while still trying to do the work.
-            </h2>
+                <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[44px] w-[600px] xl:w-[600px] lg:w-[550px] md:w-[500px] sm:w-[400px] w-full mx-auto">
+                  You&apos;re bombarded with hundreds of{' '}
+                  <span className="text-[#1f77d6]">Emails and Queries</span> while still trying to do the work.
+                </h2>
             <p className="text-[16px] text-[#677489] mb-4 leading-[24px] max-w-3xl mx-auto">
-              And you have to check them all in order to make sure you're not missing a potential great lead.
+              And you have to check them all in order to make sure you&apos;re not missing a potential great lead.
             </p>
             <p className="text-[22px] font-bold text-[#0E1109] leading-[30px] max-w-3xl mx-auto">
               What if you had a platform where AI take care<br />
