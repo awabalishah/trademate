@@ -45,7 +45,7 @@ export default function YourProblem() {
         </div>
       </div>
       
-      {/* Arrow Image - Positioned at bottom center */}
+      {/* Arrow Image - Positioned at bottom center
       <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 z-10">
         <Image
           src="/arrow.png"
@@ -54,7 +54,7 @@ export default function YourProblem() {
           height={100}
           className="w-auto h-auto"
         />
-      </div>
+      </div> */}
     </section>
   );
 }
