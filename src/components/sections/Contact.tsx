@@ -28,25 +28,25 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-[#F9F9F9]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-20 bg-[#F9F9F9] min-h-screen flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="text-center mb-16">
-          <h2 className="text-[36px] font-semibold text-[#0E1109] mb-4 leading-[44px]">
+          <h3 className="text-[36px] font-semibold text-[#0E1109] mb-4 leading-[46px] tracking-[-1px]">
             Ready to Transform Your Business?
-          </h2>
+          </h3>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
             Get in touch with our team to discuss how Trademate can help automate your trades business and grow your revenue.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center justify-items-center">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
             <h3 className="text-[24px] font-semibold text-[#0E1109] mb-6 leading-[32px]">
               Get Your Free Consultation
             </h3>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 <div>
                   <label htmlFor="fullName" className="block text-[16px] font-medium text-[#0E1109] mb-2">
                     Full Name <span className="text-[#1f77d6]">*</span>
@@ -79,7 +79,7 @@ export default function Contact() {
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 <div>
                   <label htmlFor="phone" className="block text-[16px] font-medium text-[#0E1109] mb-2">
                     Phone Number
@@ -110,7 +110,7 @@ export default function Contact() {
                 </div>
               </div>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 <div>
                   <label htmlFor="trade" className="block text-[16px] font-medium text-[#0E1109] mb-2">
                     Your Trade <span className="text-[#1f77d6]">*</span>

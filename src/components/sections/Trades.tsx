@@ -1,20 +1,21 @@
 import { trades } from '@/lib/data';
+import Link from 'next/link';
 
 export default function Trades() {
   return (
     <section id="trades" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-[36px] font-semibold text-[#0E1109] mb-4 leading-[44px]">
+          <h3 className="text-[36px] font-semibold text-[#0E1109] mb-4 leading-[46px] tracking-[-1px]">
             Built for All Trades
-          </h2>
+          </h3>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
             Our solutions work perfectly for every type of tradesperson. 
             From plumbers to builders, we understand your unique needs.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {trades.map((trade) => (
             <div key={trade.id} className="text-center group">
               <div className="bg-white rounded-xl p-6 shadow-lg card-hover group-hover:shadow-xl transition-all duration-300">
@@ -33,9 +34,9 @@ export default function Trades() {
           <p className="text-[16px] text-[#677489] mb-6 leading-[24px]">
             Don&apos;t see your trade? We work with all types of tradespeople!
           </p>
-          <button className="btn-primary">
+          <Link href="/#contact" className="btn-primary">
             Get Custom Solution
-          </button>
+          </Link>
         </div>
       </div>
     </section>

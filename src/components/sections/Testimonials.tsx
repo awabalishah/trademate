@@ -37,18 +37,18 @@ export default function Testimonials() {
           <div className="inline-flex items-center bg-white text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
             TESTIMONIALS
           </div>
-          <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[44px]">
+          <h3 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[46px] tracking-[-1px]">
             What Our Clients<br />
             Are Saying
-          </h2>
+          </h3>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
             Real feedback from trades who&apos;ve transformed their business with Trademate.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-white rounded-2xl p-8 shadow-lg">
+            <div key={testimonial.id} className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
               {/* Stars */}
               <div className="flex items-center mb-6">
                 {[...Array(testimonial.rating)].map((_, i) => (

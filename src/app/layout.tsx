@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description: "Professional automation, website development, SEO, and marketing services tailored for tradespeople. Grow your business with our digital solutions.",
   keywords: "tradespeople, automation, website development, SEO, marketing, digital solutions, plumbers, electricians, builders",
   authors: [{ name: "Trademate" }],
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
   openGraph: {
     title: "Trademate - Digital Solutions for Tradespeople",
     description: "Professional automation, website development, SEO, and marketing services tailored for tradespeople.",

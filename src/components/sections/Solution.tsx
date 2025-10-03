@@ -1,60 +1,16 @@
-import Image from 'next/image';
 
 export default function Solution() {
   return (
-    <section id="solution" className="py-20 bg-white">
+    <section id="solution" className="pb-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Problem Statement Area */}
-        <div className="text-center mb-20 relative">
-          {/* Left Side Image */}
-          <div className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-4">
-            <Image
-              src="/Problem-01.png"
-              alt="Problem visualization left"
-              width={200}
-              height={300}
-              className="w-48 h-72 object-contain"
-            />
-          </div>
-
-          {/* Right Side Image */}
-          <div className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-4">
-            <Image
-              src="/Problem-02.png"
-              alt="Problem visualization right"
-              width={200}
-              height={300}
-              className="w-48 h-72 object-contain"
-            />
-          </div>
-
-          {/* Central Content */}
-          <div className="relative z-10 max-w-4xl mx-auto">
-            <div className="inline-flex items-center bg-[#eaf3fc] text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
-              YOUR PROBLEM
-            </div>
-                <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[44px] w-[600px] xl:w-[600px] lg:w-[550px] md:w-[500px] sm:w-[400px] w-full mx-auto">
-                  You&apos;re bombarded with hundreds of{' '}
-                  <span className="text-[#1f77d6]">Emails and Queries</span> while still trying to do the work.
-                </h2>
-            <p className="text-[16px] text-[#677489] mb-4 leading-[24px] max-w-3xl mx-auto">
-              And you have to check them all in order to make sure you&apos;re not missing a potential great lead.
-            </p>
-            <p className="text-[22px] font-bold text-[#0E1109] leading-[30px] max-w-3xl mx-auto">
-              What if you had a platform where AI take care<br />
-              for all your leads?
-            </p>
-          </div>
-        </div>
-
         {/* Solution Statement Area */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center bg-[#eaf3fc] text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
             SOLUTION FOR YOUR
           </div>
-          <h2 className="text-[36px] font-semibold text-[#0E1109] mb-16 leading-[44px]">
+          <h3 className="text-[36px] font-semibold text-[#0E1109] mb-16 leading-[46px] tracking-[-1px]">
             Solution for your every problem
-          </h2>
+          </h3>
         </div>
 
         {/* Four Feature Cards */}

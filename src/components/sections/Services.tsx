@@ -12,15 +12,15 @@ export default function Services() {
 
   return (
         <section id="services" className="py-20 bg-[#F9F9F9]">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="w-full px-4 sm:px-6 lg:px-8">
             {/* Heading */}
             <div className="text-center mb-16">
               <div className="inline-flex items-center bg-[#eaf3fc] text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
                 WE ARE SERVING
               </div>
-              <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 max-w-3xl xl:max-w-[574px] mx-auto leading-[44px] tracking-[-1px] text-center">
+              <h3 className="text-[36px] font-semibold text-[#0E1109] mb-6 max-w-3xl xl:max-w-[574px] mx-auto leading-[46px] tracking-[-1px] text-center">
                 No matter what industry you&apos;re in, we got you covered
-              </h2>
+              </h3>
               <p className="text-[16px] text-[#677489] max-w-4xl mx-auto leading-[24px] text-center">
                 Trademate AI is built to talk to more leads, set more appointments, and follow up for your business with little oversight.
               </p>
@@ -32,14 +32,13 @@ export default function Services() {
              <div 
                className="flex gap-4 animate-scroll-slow group-hover:pause-scroll"
                style={{ 
-                 width: '1510px',
                  animation: 'scroll-slow 60s linear infinite'
                }}
              >
                {/* Duplicate the industries array for seamless loop */}
                {[...industries, ...industries].map((industry, index) => (
                  <div key={index} className="relative cursor-pointer flex-shrink-0">
-                   <div className="relative h-64 w-64 rounded-2xl overflow-hidden shadow-lg">
+                   <div className="relative h-48 w-48 sm:h-56 sm:w-56 md:h-64 md:w-64 rounded-2xl overflow-hidden shadow-lg">
                      <Image
                        src={industry.image}
                        alt={industry.name}

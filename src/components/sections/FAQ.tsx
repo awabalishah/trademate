@@ -45,11 +45,11 @@ export default function FAQ() {
           <div className="inline-flex items-center bg-[#EAF3FC] text-[#1f77d6] px-6 py-3 rounded-full text-sm font-medium mb-6">
             FAQ
           </div>
-          <h2 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[44px]">
+          <h3 className="text-[36px] font-semibold text-[#0E1109] mb-6 leading-[46px] tracking-[-1px]">
             Got Questions?
-          </h2>
+          </h3>
           <p className="text-[16px] text-[#677489] max-w-3xl mx-auto leading-[24px]">
-            We&apos;ve got answers to your most common cleaning concerns.
+            We&apos;ve got answers to your most common onboarding concerns.
           </p>
         </div>
 

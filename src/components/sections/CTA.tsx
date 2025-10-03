@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function CTA() {
   return (
     <section id="cta" className="py-20 bg-[#2F70F8] relative overflow-hidden">
@@ -24,7 +26,7 @@ export default function CTA() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Main Heading */}
-        <h2 className="text-[48px] md:text-[56px] font-bold mb-8 leading-tight w-[606px] xl:w-[606px] lg:w-[550px] md:w-[500px] sm:w-[400px] w-full mx-auto">
+        <h2 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] font-semibold mb-8 w-full max-w-[606px] mx-auto leading-[40px] sm:leading-[50px] md:leading-[60px] lg:leading-[70px] tracking-[-1px] sm:tracking-[-1.25px] md:tracking-[-1.5px]">
           <span className="text-[#FDD037]">Ready</span>{' '}
           <span className="text-white">To Win More Jobs, With Less</span>{' '}
           <span className="text-[#FDD037]">Effort</span><span className="text-white">?</span>
@@ -36,9 +38,9 @@ export default function CTA() {
         </p>
 
         {/* CTA Button */}
-        <button className="bg-[#FDD037] text-[#0E1109] font-bold text-[18px] px-12 py-4 rounded-[48px] hover:bg-[#FDD037]/90 transition-colors transform hover:scale-105 shadow-lg">
+        <Link href="/#contact" className="inline-block bg-[#FDD037] text-[#0E1109] font-bold text-[18px] px-12 py-4 rounded-[48px] hover:bg-[#FDD037]/90 transition-colors transform hover:scale-105 shadow-lg">
           Book Your Free Demo
-        </button>
+        </Link>
       </div>
     </section>
   );
