@@ -220,7 +220,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/ai-calling.svg"
+                          alt="AI Calling"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">AI Calling</h4>
@@ -233,7 +239,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/inboxmanagement.svg"
+                          alt="Inbox Management"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Inbox Management</h4>
@@ -246,7 +258,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/quotes.svg"
+                          alt="Quotes & Invoicing"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Quotes & Invoicing</h4>
@@ -259,7 +277,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/marketing.svg"
+                          alt="Social Media Marketing"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Social Media Marketing</h4>
@@ -272,7 +296,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/workflow-automation.svg"
+                          alt="Workflow Automation"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Workflow Automation</h4>
@@ -285,7 +315,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/customer-lists.svg"
+                          alt="Customer Lists"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Customer Lists</h4>
@@ -298,7 +334,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/autoresponse.svg"
+                          alt="Auto Responses"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Auto Responses</h4>
@@ -311,7 +353,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/calendar.svg"
+                          alt="Calendar Management"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Calendar Management</h4>
@@ -324,7 +372,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/website-building.svg"
+                          alt="Website Building"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Website Building</h4>
@@ -337,7 +391,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/seo.svg"
+                          alt="SEO Optimization"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">SEO Optimization</h4>
@@ -350,7 +410,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/certificatess.svg"
+                          alt="Certificates"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Certificates</h4>
@@ -363,7 +429,13 @@ export default function Header() {
                       onClick={() => setIsServicesOpen(false)}
                     >
                       <div className="w-10 h-10 bg-gray-200 rounded-lg flex-shrink-0 flex items-center justify-center">
-                        {/* SVG icon placeholder */}
+                        <Image
+                          src="/icons/customer-support.svg"
+                          alt="Customer Support"
+                          width={24}
+                          height={24}
+                          className="w-6 h-6"
+                        />
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-[#0E1109] group-hover:text-[#1f77d6] mb-1">Customer Support</h4>

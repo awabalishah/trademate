@@ -35,7 +35,7 @@ export default function OurStory() {
         <div className="mb-16">
           <div className="relative rounded-2xl overflow-hidden aspect-video">
             <Image
-              src="/video.png"
+              src="/Video.png"
               alt="Trademate Video"
               fill
               className="object-cover"

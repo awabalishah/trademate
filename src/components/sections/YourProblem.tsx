@@ -28,7 +28,7 @@ export default function YourProblem() {
               And you have to check them all in order to make sure you&apos;re not missing a potential great lead.
             </p>
             <p className="text-[18px] sm:text-[20px] font-semibold text-[#0E1109] leading-relaxed">
-              What if you had a platform where AI takecare for all your leads?
+              From prospect to conversion: intelligent lead management that never stops working
             </p>
           </div>
 
