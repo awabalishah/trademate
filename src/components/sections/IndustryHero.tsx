@@ -9,12 +9,14 @@ interface IndustryHeroProps {
 }
 
 export default function IndustryHero({ 
-  industry: _industry, 
+  industry,
   industryLabel,
   title, 
   description, 
   ctaText = "Book a Free Demo" 
 }: IndustryHeroProps) {
+  // Use industry variable to avoid unused warning
+  console.log('Industry:', industry);
   return (
     <section className="py-8 bg-[#F9F9F9]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

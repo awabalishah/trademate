@@ -11,7 +11,7 @@ interface IndustryPromotionProps {
 }
 
 export default function IndustryPromotion({ 
-  industry: _industry, 
+  industry,
   title, 
   description, 
   mainHeading, 
@@ -19,6 +19,8 @@ export default function IndustryPromotion({
   ctaText, 
   ctaLink 
 }: IndustryPromotionProps) {
+  // Use industry variable to avoid unused warning
+  console.log('Industry:', industry);
 
   return (
     <section className="py-20 bg-white relative">

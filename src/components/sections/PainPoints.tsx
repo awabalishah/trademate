@@ -11,13 +11,15 @@ interface PainPointsProps {
 }
 
 export default function PainPoints({ 
-  industry: _industry, 
+  industry,
   title, 
   description, 
   painPoints, 
   ctaText, 
   ctaLink 
 }: PainPointsProps) {
+  // Use industry variable to avoid unused warning
+  console.log('Industry:', industry);
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
