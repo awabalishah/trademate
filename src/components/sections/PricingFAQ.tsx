@@ -17,10 +17,10 @@ export default function PricingFAQ() {
     },
     {
       question: "How does Trademate get my Checkatrade leads?",
-      answer: "We integrate directly with Checkatrade to automatically capture and organize all your leads in one place, so you never miss an opportunity."
+      answer: "We integrate directly with Checkatrade's email responses to automatically capture and organize all your leads in one place, so you never miss an opportunity."
     },
     {
-      question: "Will customers know they're speaking to AI?",
+      question: "Will customers know they are speaking to AI?",
       answer: "Our AI is designed to communicate naturally and professionally. Most customers won't notice they're speaking to AI, but we can configure transparency based on your preference."
     },
     {

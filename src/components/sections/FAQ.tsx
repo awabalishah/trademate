@@ -14,11 +14,11 @@ export default function FAQ() {
     {
       id: 1,
       question: "How does Trademate get my Checkatrade leads?",
-      answer: "We integrate directly with Checkatrade's API to automatically capture and process your leads in real-time, ensuring you never miss an opportunity."
+      answer: "We integrate directly with Checkatrade's email responses to automatically capture and process your leads in real-time, ensuring you never miss an opportunity."
     },
     {
       id: 2,
-      question: "Will customers know they&apos;re speaking to AI?",
+      question: "Will customers know they are speaking to AI?",
       answer: "Our AI responses are designed to sound natural and professional. Customers will have a seamless experience without knowing they're interacting with AI."
     },
     {
