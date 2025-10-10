@@ -34,13 +34,31 @@ export async function POST(request: NextRequest) {
       }
     };
 
+    // Log the data being sent for debugging
+    console.log('Sending to GHL:', {
+      ...contactData,
+      apiKeyExists: !!process.env.NEXT_PUBLIC_GHL_API_KEY,
+      locationIdExists: !!process.env.NEXT_PUBLIC_GHL_LOCATION_ID
+    });
+
     // Create contact in GHL
     const ghlResult = await ghlAPI.createContact(contactData);
 
+    console.log('GHL Result:', ghlResult);
+
     if (!ghlResult.success) {
       console.error('GHL Error:', ghlResult.error);
-      // Still return success to user, but log the error
-      // You can also send to a fallback service like EmailJS
+      return NextResponse.json(
+        { 
+          success: false, 
+          error: `Failed to create contact in GHL: ${ghlResult.error}`,
+          debug: {
+            apiKeyConfigured: !!process.env.NEXT_PUBLIC_GHL_API_KEY,
+            locationIdConfigured: !!process.env.NEXT_PUBLIC_GHL_LOCATION_ID
+          }
+        },
+        { status: 500 }
+      );
     }
 
     // Trigger workflow if contact was created successfully and workflow ID is provided

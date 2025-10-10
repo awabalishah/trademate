@@ -196,7 +196,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="service" className="block text-[16px] font-medium text-[#0E1109] mb-2">
-                    Service Interest
+                    Select Service Required
                   </label>
                   <select
                     id="service"
@@ -205,11 +205,13 @@ export default function Contact() {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1f77d6] focus:border-transparent transition-all duration-200 text-[#0E1109] bg-white"
                   >
-                    <option value="">Select service</option>
+                    <option value="">Select Service Required</option>
                     <option value="automation">Business Automation</option>
                     <option value="website">Website Development</option>
                     <option value="seo">SEO & Marketing</option>
                     <option value="query-management">Query Management</option>
+                    <option value="ai-calling">AI Calling System</option>
+                    <option value="lead-management">Lead Management</option>
                     <option value="all">All Services</option>
                   </select>
                 </div>
@@ -217,7 +219,7 @@ export default function Contact() {
               
               <div>
                 <label htmlFor="message" className="block text-[16px] font-medium text-[#0E1109] mb-2">
-                  Tell us about your business needs
+                  Tell Us About Your Business Needs
                 </label>
                 <textarea
                   id="message"

@@ -58,7 +58,10 @@ export default function PricingPlans() {
               </div>
               <h3 className="text-[24px] font-semibold text-[#0E1109] mb-2">Starter Plan</h3>
               <p className="text-[14px] text-[#677489]">
-                Get access to the essential tools to kickstart your journey.
+                Get booked & organised
+              </p>
+              <p className="text-[12px] text-[#677489] mt-2">
+                For solo tradies and small crews starting with automation.
               </p>
             </div>
 
@@ -70,7 +73,7 @@ export default function PricingPlans() {
             </Link>
 
             <div>
-              <p className="text-sm font-semibold text-[#0E1109] mb-4">Features include:</p>
+              <p className="text-sm font-semibold text-[#0E1109] mb-4">You get:</p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-gray-900 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -78,7 +81,7 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-[#677489]">Core functionality to manage your tasks and projects.</span>
+                  <span className="text-sm text-[#677489]">Instant email replies (sound like you)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-gray-900 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -86,7 +89,7 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-[#677489]">Easy-to-use dashboards for quick insights.</span>
+                  <span className="text-sm text-[#677489]">Online bookings & calendar sync</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-gray-900 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -94,7 +97,15 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-[#677489]">Community support for troubleshooting.</span>
+                  <span className="text-sm text-[#677489]">New-lead alerts by email</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-gray-900 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-[#677489]">All lead details in one place</span>
                 </li>
               </ul>
             </div>
@@ -104,7 +115,7 @@ export default function PricingPlans() {
           <div className="bg-gradient-to-br from-[#2563eb] to-[#1d4ed8] rounded-3xl p-8 relative hover:shadow-2xl transition-shadow lg:transform lg:scale-105">
             <div className="absolute top-6 right-6">
               <span className="bg-[#ffd643] text-[#0E1109] px-4 py-1.5 rounded-full text-xs font-bold">
-                Most Ordered
+                Most Popular
               </span>
             </div>
 
@@ -114,7 +125,10 @@ export default function PricingPlans() {
               </div>
               <h3 className="text-[24px] font-semibold text-white mb-2">Pro Plan</h3>
               <p className="text-[14px] text-white/90">
-                Unlock the tools you need to scale and streamline operations.
+                Run the business on autopilot
+              </p>
+              <p className="text-[12px] text-white/80 mt-2">
+                For busy crews who want more jobs and less admin.
               </p>
             </div>
 
@@ -126,7 +140,7 @@ export default function PricingPlans() {
             </Link>
 
             <div>
-              <p className="text-sm font-semibold text-white mb-4">Features include:</p>
+              <p className="text-sm font-semibold text-white mb-4">Everything in Starter, plus:</p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -134,7 +148,7 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-white">Advanced analytics for data-driven decisions.</span>
+                  <span className="text-sm text-white">Automatic quotes & invoices (get paid faster)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -142,7 +156,7 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-white">Seamless integrations with your favorite tools.</span>
+                  <span className="text-sm text-white">Automatic review requests (email & WhatsApp after each job)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -150,7 +164,23 @@ export default function PricingPlans() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm text-white">Priority support.</span>
+                  <span className="text-sm text-white">Website tune-up to win more calls</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#2563eb]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-white">WhatsApp auto-responder for new enquiries</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <svg className="w-3 h-3 text-[#2563eb]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="text-sm text-white">Dedicated priority support</span>
                 </li>
               </ul>
             </div>
