@@ -1,26 +1,24 @@
-import Image from 'next/image';
-
 export default function MeetTeam() {
   const teamMembers = [
     {
       name: "Luke Wayne",
       role: "CEO",
-      image: "/team/01.png"
+      initials: "LW"
     },
     {
       name: "John David", 
       role: "COO",
-      image: "/team/02.png"
+      initials: "JD"
     },
     {
       name: "Abhas Singh",
       role: "Product Head", 
-      image: "/team/03.png"
+      initials: "AS"
     },
     {
       name: "Marco Felix",
       role: "Client Support Lead",
-      image: "/team/04.png"
+      initials: "MF"
     }
   ];
 
@@ -48,16 +46,12 @@ export default function MeetTeam() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="bg-white rounded-2xl p-6 shadow-lg">
-              {/* Team Member Image */}
-              <div className="mb-6">
-                <div className="w-full aspect-square rounded-xl overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={`${member.name} - ${member.role}`}
-                    width={300}
-                    height={300}
-                    className="w-full h-full object-cover"
-                  />
+              {/* Team Member Initials */}
+              <div className="mb-6 flex justify-start">
+                <div className="w-20 h-20 rounded-full bg-[#E3F2FD] flex items-center justify-center">
+                  <span className="text-[#1A73E8] text-xl font-bold">
+                    {member.initials}
+                  </span>
                 </div>
               </div>
 

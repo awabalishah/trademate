@@ -52,9 +52,9 @@ export default function CoreBeliefs() {
             </div>
           </div>
 
-          {/* Center Card - Image */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg flex items-center justify-center">
-            <div className="relative w-full h-64 rounded-xl overflow-hidden">
+          {/* Center Card - Full Image */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg">
+            <div className="relative w-full h-full min-h-[400px] rounded-xl overflow-hidden">
               <Image
                 src="/whatwestandfor.png"
                 alt="What We Stand For"
